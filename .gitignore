@@ -3,3 +3,6 @@
 
 # Ignore model weights and dataset files
 /data/models/
+
+# Ignore Python virtual environment
+venv/

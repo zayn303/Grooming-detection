@@ -1,0 +1,13 @@
+torch
+transformers
+datasets
+whisper
+librosa
+scikit-learn
+pandas
+numpy
+tensorflow
+keras
+flask
+fastapi
+python-dotenv
