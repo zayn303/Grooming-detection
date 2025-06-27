@@ -1,0 +1,380 @@
+SLURM job started on DGX at Fri May 16 04:10:47 CEST 2025
+[TRAIN] Loaded 59860 samples
+[Epoch 1/100] Train Loss: 0.2989
+[Epoch 2/100] Train Loss: 0.1395
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       0.97      0.98      0.98      7483
+        real       0.98      0.97      0.98      7483
+
+    accuracy                           0.98     14966
+   macro avg       0.98      0.98      0.98     14966
+weighted avg       0.98      0.98      0.98     14966
+
+Confusion Matrix:
+ [[7355  128]
+ [ 199 7284]]
+  → Eval on val: Loss = 0.0605 | Accuracy = 0.9782 | F1 = 0.9781
+  ✓ Best model saved: outputs/best_model_2121.pth
+[Epoch 3/100] Train Loss: 0.0873
+[Epoch 4/100] Train Loss: 0.0640
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       0.99      0.99      0.99      7483
+        real       0.99      0.99      0.99      7483
+
+    accuracy                           0.99     14966
+   macro avg       0.99      0.99      0.99     14966
+weighted avg       0.99      0.99      0.99     14966
+
+Confusion Matrix:
+ [[7431   52]
+ [  74 7409]]
+  → Eval on val: Loss = 0.0243 | Accuracy = 0.9916 | F1 = 0.9916
+  ✓ Best model saved: outputs/best_model_2121.pth
+[Epoch 5/100] Train Loss: 0.0476
+[Epoch 6/100] Train Loss: 0.0436
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       0.97      1.00      0.98      7483
+        real       1.00      0.97      0.98      7483
+
+    accuracy                           0.98     14966
+   macro avg       0.98      0.98      0.98     14966
+weighted avg       0.98      0.98      0.98     14966
+
+Confusion Matrix:
+ [[7472   11]
+ [ 234 7249]]
+  → Eval on val: Loss = 0.0479 | Accuracy = 0.9836 | F1 = 0.9836
+  No improvement for 1 evals
+[Epoch 7/100] Train Loss: 0.0374
+[Epoch 8/100] Train Loss: 0.0327
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       0.96      1.00      0.98      7483
+        real       1.00      0.95      0.98      7483
+
+    accuracy                           0.98     14966
+   macro avg       0.98      0.98      0.98     14966
+weighted avg       0.98      0.98      0.98     14966
+
+Confusion Matrix:
+ [[7481    2]
+ [ 350 7133]]
+  → Eval on val: Loss = 0.0802 | Accuracy = 0.9765 | F1 = 0.9765
+  No improvement for 2 evals
+[Epoch 9/100] Train Loss: 0.0295
+[Epoch 10/100] Train Loss: 0.0280
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       1.00      0.91      0.95      7483
+        real       0.91      1.00      0.95      7483
+
+    accuracy                           0.95     14966
+   macro avg       0.96      0.95      0.95     14966
+weighted avg       0.96      0.95      0.95     14966
+
+Confusion Matrix:
+ [[6788  695]
+ [  10 7473]]
+  → Eval on val: Loss = 0.1494 | Accuracy = 0.9529 | F1 = 0.9528
+  No improvement for 3 evals
+[Epoch 11/100] Train Loss: 0.0249
+[Epoch 12/100] Train Loss: 0.0221
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       1.00      1.00      1.00      7483
+        real       1.00      1.00      1.00      7483
+
+    accuracy                           1.00     14966
+   macro avg       1.00      1.00      1.00     14966
+weighted avg       1.00      1.00      1.00     14966
+
+Confusion Matrix:
+ [[7474    9]
+ [  17 7466]]
+  → Eval on val: Loss = 0.0060 | Accuracy = 0.9983 | F1 = 0.9983
+  ✓ Best model saved: outputs/best_model_2121.pth
+[Epoch 13/100] Train Loss: 0.0208
+[Epoch 14/100] Train Loss: 0.0185
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       1.00      1.00      1.00      7483
+        real       1.00      1.00      1.00      7483
+
+    accuracy                           1.00     14966
+   macro avg       1.00      1.00      1.00     14966
+weighted avg       1.00      1.00      1.00     14966
+
+Confusion Matrix:
+ [[7479    4]
+ [  34 7449]]
+  → Eval on val: Loss = 0.0070 | Accuracy = 0.9975 | F1 = 0.9975
+  No improvement for 1 evals
+[Epoch 15/100] Train Loss: 0.0193
+[Epoch 16/100] Train Loss: 0.0170
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       1.00      1.00      1.00      7483
+        real       1.00      1.00      1.00      7483
+
+    accuracy                           1.00     14966
+   macro avg       1.00      1.00      1.00     14966
+weighted avg       1.00      1.00      1.00     14966
+
+Confusion Matrix:
+ [[7478    5]
+ [  31 7452]]
+  → Eval on val: Loss = 0.0079 | Accuracy = 0.9976 | F1 = 0.9976
+  No improvement for 2 evals
+[Epoch 17/100] Train Loss: 0.0147
+[Epoch 18/100] Train Loss: 0.0145
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       0.98      1.00      0.99      7483
+        real       1.00      0.98      0.99      7483
+
+    accuracy                           0.99     14966
+   macro avg       0.99      0.99      0.99     14966
+weighted avg       0.99      0.99      0.99     14966
+
+Confusion Matrix:
+ [[7482    1]
+ [ 148 7335]]
+  → Eval on val: Loss = 0.0371 | Accuracy = 0.9900 | F1 = 0.9900
+  No improvement for 3 evals
+[Epoch 19/100] Train Loss: 0.0143
+[Epoch 20/100] Train Loss: 0.0119
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       1.00      1.00      1.00      7483
+        real       1.00      1.00      1.00      7483
+
+    accuracy                           1.00     14966
+   macro avg       1.00      1.00      1.00     14966
+weighted avg       1.00      1.00      1.00     14966
+
+Confusion Matrix:
+ [[7476    7]
+ [   5 7478]]
+  → Eval on val: Loss = 0.0039 | Accuracy = 0.9992 | F1 = 0.9992
+  ✓ Best model saved: outputs/best_model_2121.pth
+[Epoch 21/100] Train Loss: 0.0127
+[Epoch 22/100] Train Loss: 0.0119
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       1.00      0.99      1.00      7483
+        real       0.99      1.00      1.00      7483
+
+    accuracy                           1.00     14966
+   macro avg       1.00      1.00      1.00     14966
+weighted avg       1.00      1.00      1.00     14966
+
+Confusion Matrix:
+ [[7443   40]
+ [   1 7482]]
+  → Eval on val: Loss = 0.0115 | Accuracy = 0.9973 | F1 = 0.9973
+  No improvement for 1 evals
+[Epoch 23/100] Train Loss: 0.0110
+[Epoch 24/100] Train Loss: 0.0109
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       0.99      1.00      1.00      7483
+        real       1.00      0.99      1.00      7483
+
+    accuracy                           1.00     14966
+   macro avg       1.00      1.00      1.00     14966
+weighted avg       1.00      1.00      1.00     14966
+
+Confusion Matrix:
+ [[7472   11]
+ [  39 7444]]
+  → Eval on val: Loss = 0.0110 | Accuracy = 0.9967 | F1 = 0.9967
+  No improvement for 2 evals
+[Epoch 25/100] Train Loss: 0.0100
+[Epoch 26/100] Train Loss: 0.0122
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       1.00      1.00      1.00      7483
+        real       1.00      1.00      1.00      7483
+
+    accuracy                           1.00     14966
+   macro avg       1.00      1.00      1.00     14966
+weighted avg       1.00      1.00      1.00     14966
+
+Confusion Matrix:
+ [[7466   17]
+ [   3 7480]]
+  → Eval on val: Loss = 0.0046 | Accuracy = 0.9987 | F1 = 0.9987
+  No improvement for 3 evals
+[Epoch 27/100] Train Loss: 0.0087
+[Epoch 28/100] Train Loss: 0.0086
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       0.94      1.00      0.97      7483
+        real       1.00      0.94      0.97      7483
+
+    accuracy                           0.97     14966
+   macro avg       0.97      0.97      0.97     14966
+weighted avg       0.97      0.97      0.97     14966
+
+Confusion Matrix:
+ [[7483    0]
+ [ 480 7003]]
+  → Eval on val: Loss = 0.1706 | Accuracy = 0.9679 | F1 = 0.9679
+  No improvement for 4 evals
+[Epoch 29/100] Train Loss: 0.0085
+[Epoch 30/100] Train Loss: 0.0091
+[DEBUG] MEL SHAPE: (1, 128, 94), MIN: -80.0000, MAX: 0.0000
+=== VAL DUMP SAMPLE ===
+  [REAL: 1 | PRED: 1]
+  [REAL: 1 | PRED: 1]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+  [REAL: 0 | PRED: 0]
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+        fake       1.00      1.00      1.00      7483
+        real       1.00      1.00      1.00      7483
+
+    accuracy                           1.00     14966
+   macro avg       1.00      1.00      1.00     14966
+weighted avg       1.00      1.00      1.00     14966
+
+Confusion Matrix:
+ [[7470   13]
+ [   4 7479]]
+  → Eval on val: Loss = 0.0043 | Accuracy = 0.9989 | F1 = 0.9989
+  No improvement for 5 evals
+ Early stopping triggered.
+Final model saved.
+Job complete at Fri May 16 07:20:13 CEST 2025

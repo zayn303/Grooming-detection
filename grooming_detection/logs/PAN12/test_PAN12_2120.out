@@ -1,0 +1,18 @@
+SLURM job started on DGX at Fri May 16 04:10:47 CEST 2025
+Evaluating model...
+
+--- Test Report ---
+              precision    recall  f1-score   support
+
+non-predator       0.99      0.99      0.99     64912
+    predator       0.78      0.66      0.72      2015
+
+    accuracy                           0.98     66927
+   macro avg       0.88      0.83      0.85     66927
+weighted avg       0.98      0.98      0.98     66927
+
+Confusion Matrix:
+ [[64530   382]
+ [  679  1336]]
+Accuracy=0.9841, Precision=0.8836, Recall=0.8286, F1=0.8538
+Job complete at Fri May 16 08:07:29 CEST 2025

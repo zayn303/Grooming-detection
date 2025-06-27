@@ -1,0 +1,36 @@
+
+Starting combined analysis for 5 audio segments...
+Processing segment 1/5
+Deepfake score (segment 1): 0.0103
+Transcript (segment 1): Bulova operácia, dvojkova operácia, binárna operácia, dvojčlona operácia, diadická operácia, bulova operácia.
+Processing segment 2/5
+Deepfake score (segment 2): 0.0110
+Transcript (segment 2): Najne skôr do 12.12.2023 musí byť vo všetkých krajín EU.
+Processing segment 3/5
+Deepfake score (segment 3): 0.0107
+Transcript (segment 3): Bývam v malom byte nedaleko univerzity, takže môžem chodiť na prednášky Pešo.
+Processing segment 4/5
+Deepfake score (segment 4): 0.0107
+Transcript (segment 4): Štít, prístrojou, rozvádza, doska, kontrolna tabula, ovladácia doska, radiáca doska, radiáca skryna.
+Processing segment 5/5
+Deepfake score (segment 5): 0.0108
+Transcript (segment 5): Dnes ráno som zaspala, lebo som si nezapla budík a nestihla som prednášku.
+Combined transcript length: 424 characters
+Grooming score: 0.0010 | Alert: False
+
+--- /analyze-combined response ---
+Status Code: 200
+{
+  "transcript": "Bulova operácia, dvojkova operácia, binárna operácia, dvojčlona operácia, diadická operácia, bulova operácia.  Najne skôr do 12.12.2023 musí byť vo všetkých krajín EU.  Bývam v malom byte nedaleko univerzity, takže môžem chodiť na prednášky Pešo.  Štít, prístrojou, rozvádza, doska, kontrolna tabula, ovladácia doska, radiáca doska, radiáca skryna.  Dnes ráno som zaspala, lebo som si nezapla budík a nestihla som prednášku.",
+  "grooming_score": 0.000979929929599166,
+  "grooming_alert": false,
+  "voice_deepfake": {
+    "count": 0,
+    "total": 5,
+    "ratio": 0.0
+  },
+  "timestamp": "2025-05-23 08:08:23",
+  "processing_time": 63.79,
+  "model_key": "pan12"
+}
+

@@ -1,0 +1,28 @@
+
+--- Model: PAN12 ---
+Text: Hej, ako sa máš, chceš sa stretnúť dnes večer?
+ → Score: 0.9608 | Alert: True
+Text: Si krásna, máš veľmi pekný úsmev. Ako stará si?
+ → Score: 0.8895 | Alert: True
+Text: Ahoj, ako sa ti darí v škole?
+ → Score: 0.9608 | Alert: True
+Text: Martin Kukučín bol slovenský spisovateľ realizmu.
+ → Score: 0.0010 | Alert: False
+Text: Chcem ti povedať tajomstvo, ale nikomu to nehovor, dobre?
+ → Score: 0.0010 | Alert: False
+Text: Ukážeš mi niečo, ale len my dvaja to budeme vedieť.
+ → Score: 0.0010 | Alert: False
+
+--- Model: VTPAN ---
+Text: Hej, ako sa máš, chceš sa stretnúť dnes večer?
+ → Score: 0.9993 | Alert: True
+Text: Si krásna, máš veľmi pekný úsmev. Ako stará si?
+ → Score: 0.0015 | Alert: False
+Text: Ahoj, ako sa ti darí v škole?
+ → Score: 0.3796 | Alert: False
+Text: Martin Kukučín bol slovenský spisovateľ realizmu.
+ → Score: 0.0000 | Alert: False
+Text: Chcem ti povedať tajomstvo, ale nikomu to nehovor, dobre?
+ → Score: 0.0005 | Alert: False
+Text: Ukážeš mi niečo, ale len my dvaja to budeme vedieť.
+ → Score: 0.0015 | Alert: False

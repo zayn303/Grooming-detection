@@ -1,0 +1,24 @@
+SLURM job started on DGX at Fri May 16 16:25:51 CEST 2025
+Loading test set...
+[TEST] Loaded 17196 samples
+
+ Final Test Accuracy: 0.9935
+ Final Test Loss: 0.0235
+ F1 Score: 0.9935
+ ROC-AUC: 0.9996
+
+ Confusion Matrix:
+[[8521   77]
+ [  35 8563]]
+
+ Classification Report:
+              precision    recall  f1-score   support
+
+        fake       1.00      0.99      0.99      8598
+        real       0.99      1.00      0.99      8598
+
+    accuracy                           0.99     17196
+   macro avg       0.99      0.99      0.99     17196
+weighted avg       0.99      0.99      0.99     17196
+
+Job complete at Fri May 16 16:27:22 CEST 2025

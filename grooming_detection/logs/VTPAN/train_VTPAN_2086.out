@@ -1,0 +1,174 @@
+SLURM job started on DGX at Thu May 15 16:10:10 CEST 2025
+Using device: cuda
+[Epoch 1/50] Train Loss: 0.1116
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+non-predator       1.00      0.99      1.00      2773
+    predator       0.94      0.99      0.96       293
+
+    accuracy                           0.99      3066
+   macro avg       0.97      0.99      0.98      3066
+weighted avg       0.99      0.99      0.99      3066
+
+Confusion Matrix:
+ [[2756   17]
+ [   4  289]]
+Eval: Loss=0.0347 | Acc=0.9932 | F1=0.9806
+✓ Best model saved: outputs/best_model_f1_2086.pth
+[Epoch 2/50] Train Loss: 0.0389
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+non-predator       0.99      1.00      1.00      2773
+    predator       1.00      0.92      0.96       293
+
+    accuracy                           0.99      3066
+   macro avg       1.00      0.96      0.98      3066
+weighted avg       0.99      0.99      0.99      3066
+
+Confusion Matrix:
+ [[2773    0]
+ [  22  271]]
+Eval: Loss=0.0325 | Acc=0.9928 | F1=0.9785
+No improvement. Patience: 1/5
+[Epoch 3/50] Train Loss: 0.0199
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+non-predator       1.00      1.00      1.00      2773
+    predator       0.98      0.96      0.97       293
+
+    accuracy                           0.99      3066
+   macro avg       0.99      0.98      0.98      3066
+weighted avg       0.99      0.99      0.99      3066
+
+Confusion Matrix:
+ [[2768    5]
+ [  11  282]]
+Eval: Loss=0.0335 | Acc=0.9948 | F1=0.9848
+✓ Best model saved: outputs/best_model_f1_2086.pth
+[Epoch 4/50] Train Loss: 0.0214
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+non-predator       1.00      1.00      1.00      2773
+    predator       0.97      0.98      0.98       293
+
+    accuracy                           1.00      3066
+   macro avg       0.98      0.99      0.99      3066
+weighted avg       1.00      1.00      1.00      3066
+
+Confusion Matrix:
+ [[2764    9]
+ [   5  288]]
+Eval: Loss=0.0246 | Acc=0.9954 | F1=0.9869
+✓ Best model saved: outputs/best_model_f1_2086.pth
+[Epoch 5/50] Train Loss: 0.0066
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+non-predator       1.00      1.00      1.00      2773
+    predator       1.00      0.97      0.98       293
+
+    accuracy                           1.00      3066
+   macro avg       1.00      0.98      0.99      3066
+weighted avg       1.00      1.00      1.00      3066
+
+Confusion Matrix:
+ [[2772    1]
+ [  10  283]]
+Eval: Loss=0.0198 | Acc=0.9964 | F1=0.9895
+✓ Best model saved: outputs/best_model_f1_2086.pth
+[Epoch 6/50] Train Loss: 0.0056
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+non-predator       0.99      1.00      1.00      2773
+    predator       1.00      0.95      0.97       293
+
+    accuracy                           0.99      3066
+   macro avg       1.00      0.97      0.98      3066
+weighted avg       0.99      0.99      0.99      3066
+
+Confusion Matrix:
+ [[2772    1]
+ [  15  278]]
+Eval: Loss=0.0541 | Acc=0.9948 | F1=0.9846
+No improvement. Patience: 1/5
+[Epoch 7/50] Train Loss: 0.0099
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+non-predator       0.99      1.00      1.00      2773
+    predator       1.00      0.91      0.95       293
+
+    accuracy                           0.99      3066
+   macro avg       0.99      0.96      0.97      3066
+weighted avg       0.99      0.99      0.99      3066
+
+Confusion Matrix:
+ [[2772    1]
+ [  26  267]]
+Eval: Loss=0.0652 | Acc=0.9912 | F1=0.9735
+No improvement. Patience: 2/5
+[Epoch 8/50] Train Loss: 0.0073
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+non-predator       1.00      1.00      1.00      2773
+    predator       0.97      0.98      0.97       293
+
+    accuracy                           1.00      3066
+   macro avg       0.98      0.99      0.99      3066
+weighted avg       1.00      1.00      1.00      3066
+
+Confusion Matrix:
+ [[2764    9]
+ [   6  287]]
+Eval: Loss=0.0293 | Acc=0.9951 | F1=0.9859
+No improvement. Patience: 3/5
+[Epoch 9/50] Train Loss: 0.0062
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+non-predator       1.00      1.00      1.00      2773
+    predator       0.98      0.98      0.98       293
+
+    accuracy                           1.00      3066
+   macro avg       0.99      0.99      0.99      3066
+weighted avg       1.00      1.00      1.00      3066
+
+Confusion Matrix:
+ [[2767    6]
+ [   6  287]]
+Eval: Loss=0.0315 | Acc=0.9961 | F1=0.9887
+No improvement. Patience: 4/5
+[Epoch 10/50] Train Loss: 0.0045
+
+--- Eval Report ---
+              precision    recall  f1-score   support
+
+non-predator       1.00      1.00      1.00      2773
+    predator       0.98      0.97      0.98       293
+
+    accuracy                           1.00      3066
+   macro avg       0.99      0.98      0.99      3066
+weighted avg       1.00      1.00      1.00      3066
+
+Confusion Matrix:
+ [[2768    5]
+ [   9  284]]
+Eval: Loss=0.0386 | Acc=0.9954 | F1=0.9867
+No improvement. Patience: 5/5
+Early stopping.
+Job complete at Thu May 15 17:09:10 CEST 2025

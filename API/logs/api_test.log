@@ -1,0 +1,24 @@
+
+--- /analyze-text response ---
+{
+  "grooming_score": 0.0010698079131543636,
+  "grooming_alert": false,
+  "model_key": "pan12",
+  "timestamp": "2025-05-23 07:03:36"
+}
+
+--- /analyze-audio response ---
+Status Code: 200
+Raw Content: {"is_synthetic_voice":0.010646356269717216,"transcript":" Martin Kukučín. Martin Kukučín žil v 2. polovice 19. storočia a je jedným z popredných predstaviteľov tzv. slovenského realizmu. Jednalo sa o štýl prohozy, ktorý sa snažil zachytiť reálnu situáciu bez nejakého prikrášlenia. Ano bola to taká tá reakcia na obdobie romantizmu, ktoré mu predchádzalo, kde bol taký štýl písať epické básne a vesi, ktoré oslavojú nadľúcké záležitosti.","grooming_score":0.0,"grooming_alert":false,"model_key":"vtpan","timestamp":"2025-05-23 07:03:36","processing_time":{"total":41.09},"warnings":[]}
+{
+  "is_synthetic_voice": 0.010646356269717216,
+  "transcript": " Martin Kukučín. Martin Kukučín žil v 2. polovice 19. storočia a je jedným z popredných predstaviteľov tzv. slovenského realizmu. Jednalo sa o štýl prohozy, ktorý sa snažil zachytiť reálnu situáciu bez nejakého prikrášlenia. Ano bola to taká tá reakcia na obdobie romantizmu, ktoré mu predchádzalo, kde bol taký štýl písať epické básne a vesi, ktoré oslavojú nadľúcké záležitosti.",
+  "grooming_score": 0.0,
+  "grooming_alert": false,
+  "model_key": "vtpan",
+  "timestamp": "2025-05-23 07:03:36",
+  "processing_time": {
+    "total": 41.09
+  },
+  "warnings": []
+}
